@@ -43,13 +43,15 @@ Git 远程管理
 git remote add origin git@github.com:LeoWynn/LearnGit.git
 远程连接版本库
 
+git remote  查看远程库
+
 2 推送
 git push -u origin master
 远程推送分支， -u 第一次推送时把本地的master和远程的master关联起来
 以后推送，直接简化推送就好
 git push origin master
 git push origin v1.0 推送某个标签到远程，
- git push origin --tags 一次性推送全部尚未推送到远程的本地标签
+git push origin --tags 一次性推送全部尚未推送到远程的本地标签
 
 3
 git clone git@github.com:LeoWynn/gitskills.git
