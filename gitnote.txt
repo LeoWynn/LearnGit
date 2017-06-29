@@ -1,0 +1,105 @@
+--------------------------------------------------------------------
+Git安装
+sudo apt-get install git
+
+--------------------------------------------------------------------
+Git 创建
+创建文件后，git inin 
+git add readme.txt
+git commit -m "wrote a readme file" 
+-m后面输入的是本次提交的说明
+
+--------------------------------------------------------------------
+Git 命令
+
+1 
+git diff readme.txt 查看difference
+git status 查看结果
+
+2 版本回退
+git log 显示从最近到最远的提交日志
+git log --pretty=oneline 单行模式日志
+
+3
+git reset --hard HEAD^ 回退到上一个版本
+git reset --hard HEAD~10 回退到上10个版本
+git reset --hard commit_id 回退到该commit_id版本
+
+4
+Git 暂存区
+工作取 >> add 暂存区 >> commit 分支branch
+
+5 撤销修改
+git checkout -- readme.txt 撤销工作区修改
+git reset HEAD readme.txt 可以把暂存区的修改撤销掉，重新放回工作区
+
+6 删除
+git rm test.txt	删除文件
+git commit -m "remove test.txt"
+
+--------------------------------------------------------------------
+Git 远程管理
+1
+git remote add origin git@github.com:LeoWynn/LearnGit.git
+远程连接版本库
+
+2 推送
+git push -u origin master
+远程推送分支， -u 第一次推送时把本地的master和远程的master关联起来
+以后推送，直接简化推送就好
+git push origin master
+git push origin v1.0 推送某个标签到远程，
+ git push origin --tags 一次性推送全部尚未推送到远程的本地标签
+
+3
+git clone git@github.com:LeoWynn/gitskills.git
+从远程库克隆一个本地库
+git branch --set-upstream dev origin/dev
+定本地dev分支与远程origin/dev分支的链接
+git branch --set-upstream dev origin/dev
+
+4 推送失败处理
+git branch --set-upstream dev origin/dev
+git pull 从远程库中获取到本地库, 解决冲突后，在推送
+
+--------------------------------------------------------------------
+Git 分支管理
+
+1 分支命令
+git checkout -b dev 创建dev分支并跳转到dev分支
+git branch dev 创建分支
+git checkout dev 跳转分支
+git branch 查看分支
+git merge dev 合并分支
+git merge --no-ff -m "merge with no-ff"  Git会用Fast forward模式，但这种模式下，删除分支后，会丢掉分支信息
+git branch -d dev 删除分支
+
+git log --graph --pretty=oneline --abbrev-commit 可以看到分支的合并情况
+
+2 
+stash: 隐藏
+git stash test.txt
+git stash drop
+
+--------------------------------------------------------------------
+Git 标签管理
+git tag v1.0 创建标签
+git tag 查看标签
+git tag v0.9 commit_id 根据commit_id创建标签
+git tag -a v0.1 -m "version 0.1 released" 3628164 添加说明
+git show v0.1 查看标签
+git tag -d v0.1 删除标签
+
+--------------------------------------------------------------------
+Git 忽略特殊文件
+创建.gitignore文件
+写入需要忽略的文件
+提交
+
+--------------------------------------------------------------------
+Git 创建别名
+
+git config --global alias.st status 
+
+--------------------------------------------------------------------
+
