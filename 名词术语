@@ -1,0 +1,119 @@
+公司基本短语含义： 公司基本短语含义： 
+MLB：Mother Level Board -- 指为 Apple 生产主板的部门 ： 
+FATP：Final Assembly and Test of products – 指成品组装及测试部门。 
+我们主要设计此部门 ： 
+EPM：Engineering Project Management 工程开发管理部 ： 
+PD：Product Design 结构开发部 ： 
+R&D：Product Research and Design 研发部 ： 
+PE：Product Engineering --产品工程 ： 
+NPI：New Product Introduce --新产品导入工程 
+IE：Industry Engineering 工业工程 
+ME：Mechanical Engineering -- 结构/制程工程 
+TE-AP：Testing Engineering Application Function 测试工程 
+TE-RF：Testing Engineering - Radio Frequency 
+SCM：Supply Chain Management 供应链 ： 
+WH：Warehouse 仓库 
+MC： Material Control 物控 
+CUS：Customs Department 关务 
+EPD：Engineering Purchase Department 工程采购 
+QA：Quality Assure 品管 ： 
+IQC：Incoming Quality Assure 进料检验 
+SQE：Supply Quality Assure 供应商品质管理 
+IPQC：In Process Quality Control 在制品品质管理 
+OQC：Outcome Quality Control 出货品质管理 系统流程相关： 系统流程相关： 
+ETA：Evaluated Time of Arrival --预计到达时间 ： 
+ETD：Evaluated Time of Delivery -- 预计发货时间 ： 
+ATA：Actual Time of Arrival -- 实际到达时间 ： 
+CPT：Cupertino City --- 库比提诺镇– Apple 在加州的总部 ： 
+DUT：Device Under Test --- 待测机台 ： 
+OP：Operator ---作业员 ： 
+UPH：Units Per Hour ---每小时产量 ： 
+Radar：Radar System that Apple used that to track the issues. ： 
+X-Track：FA record track system that SW team development ： 
+PDCA：This is Apple product testing data tracking system ： 
+SFC：Software Floor Control system, be used for production process control ： 
+SOP：Standard Operation Process -- 标准作业流程 ： 
+WI：Working Instruction -- 作业指导书 ： 
+WIP：Work In Process --- 在制品 ： 
+CT：Cycle Time -- 完成一个动作或测试的时间 ： 
+TCT：Testing Cycle Time --测试时间周期 ： 
+OCT：Operation Cycle Time – 作业时间周期 ： 
+RMA：Return Merchandise Authorization --不良品返修 ： 产品试产阶段： 产品试产阶段： 
+ENG：Engineering Build ： --- 泛指产品试产阶段 
+Proto：Prototype build ---- 模型验证阶段 ： 
+EVT：Engineering Validation Term --- 工程设计验证阶段 ： 
+DVT：Design Validation Term ---设计验证 ： 
+PVT：Plan Validation Term --- 量产前制程与工程验证 ： 
+RAMP：Ramp Build Term --- 产量爬坡验证阶段 ： 
+MP：Mass Production Term --- 大量生产阶段 ： 
+EFFA：Engineering Failure Analysis --- 工程不良品分析 ： 测试治具厂商： 测试治具厂商： 
+Tod： 图德精密科技 – 主要制作 QTs 和 RF 测试治具 ： 
+Innorev：应诺精密科技 – 主要制作 Camera, ALS, FACT 测试治具 ： 
+Wilwin：图创治具 – 主要制作 IQC ALS, Prox 及 Sub line Button Testing Fixture ： 
+OCT：圆璐 – 主要制作 Sub Line Sensor and CG testing fixture ： 
+Word：沃德 – 主要制作 IQC CG testing fixture ： 
+Bojey：博杰 – 主要制作 MLB RF Inner Fixture ： 
+Intelligent：运泰利 – 主要制作 IQC Camera pogo pin fixture ： 
+MYZY：迈致 – 主要制作主线上的 Grape 测试治具 ： 
+TRI: 德律泰 –主要生产 MLB RF Inner Fixture & FCT 测试治具 
+TopTest: 拓普 – 主要生产 MLB SOC 和 DFU 测试治具 
+
+Apple 文件资料术语 文件资料术语： 
+Gerber File：Apple 产品主板(PCB) 设计文件，用於厂商制作 
+Bare PCB. ： BOM：Bill of Material. 为记录产品所有的物料，文件等料号，清单与层次； ： 
+Schematics：线路图, 为产品电子设计线路。 是我们设计的主要参考资料； ： 
+MCO Drawing：主要为产品 MLB 各尺寸及 贴装元件后的尺寸图纸； ： 
+2D Drawing：主要为产品组成原件的二维尺寸； ： 
+3D Drawing：主要为客户产品的三维立体图档，是我们设计的主要图档； ： 
+Test Flow： 产品测试流程图，包括 MLB 段与 FATP 段； ： 
+Test Coverage： 各工站测试项目,Command, Response, Spec ,etc ： 
+Equipment List：设备清单, 为测试工站中使用到的所有的设备，治具，Cable 等 ： 元器件与测试相关： 元器件与测试相关： 
+CPU：Center Process Unit -- 中央处理器 ： 
+PCB：Printed Circuit Board --- 空白电路板 ： 
+PCBA：Printed Circuit Board Assembly ---电路板，上面有贴装相应的原件 ： 
+PMU：Power Management Unit --- 电源管理单元 ： 
+Codec：Codec. This is audio control center of iPhone --音频处理单元 IC ： 
+LCM：Liquid Crystal Module – iPhone and iPod display module --- 液晶显示模组 ： 
+Grape： Touch Panel of iPhone and iPod --- 触摸屏 ： 
+HP：Head Phone, --耳机 ： 
+Compass：A device used to determine geographic direction. --- 指南针 ： 
+ALS： Ambient Light Sensor. Be used for detect the brightness of the ambient --–环境光学感应器 ： 
+Prox Sensor：Proximity Sensor. Be used for detect the distance of the block; -- 距离感应器 ： 
+Acc：Accelerator. One sensor that can detect the direction of the unit --- 重力加速度感应器 ： 
+Gyro:陀螺仪. 用於侦测机台的转动状态 
+VGA Camera：iPhone 上的前置摄像头，又称之为 Front Camera; ： 
+Back Camera：iPhone 上的后置摄像头 ： 
+Camera LED：iPhone 上后置摄像头上使用的闪光灯 ： 
+MLB：Mother Level Board. 手机主板或其他电子产品上的主控制板 ： 
+FF：Form factory. 一般意义上 Apple 将在开发阶段的手机成品称之为 FF; ： 
+NED：Apple 将工程验证阶段将产品的主要元件组装在一个大的结构上面，便於更换与验 ： 证。此称之为 NED 机台。 此将仅用於工程验证阶段。 
+测试 Stations：MLB Side ： 
+DFU： Download File to Unit. MLB 测试的第一个工站, 用於将测试软件灌到测试主板的 ： Nand 裏， 便於后面工站的测试； 
+FCT： Function Cycle Test. 在 MLB 段，主用用於测试 MLB 上主要的电压,电流及个别功 ： 能测试, 确保主板功能正常； 
+SOC:
+RF Inner： 在 MLB 测试端,用於测试主板的 RF 功能模块功能。 主要有 GSM,C2K, WiFi, ： 
+BT& GPS etc 测试 Stations：FATP Side ： Sensor Flex Testing： 
+Sub Line 测试工站，用於测试机台在组装 Sensor flex 后的 Sensor 功 ： 能是否正常; 
+Button Flex Testing：Sub Line 测试工站，用於测试机台在组装 Button flex 后的 Button Flex ： 功能是否正常; 
+CG Module Testing：Sub Line 测试工站，用於测试机台在组装 CG Module 后的 LCM & ： Grape 功能是否正常; 
+PAT Testing Station：Passive Antenna Testing – 被动天线测试 ： 
+Grounding Testing：接地测试 – 主要用於 RF 天线及产品与地的联通性测试 ： 
+CT Testing Station：Connection Test – 用於测试产品在组装中是否存在连通性问题 ： 
+QT0 Testing Station： Quick Test0 – 主要在产品刚刚组装完成后,对产品上的主要连接元件进 ： 行快速测试, 确保产品功能的正常。 
+QT0B Testing Station：Quick Test0B – 主要在产品刚刚组装完成后,对产品上的主要连接元 ： 件进行快速测试, 确保产品功能的正常。此工站由原来的 QT0 工站分离出来, 主要包含那 些不需要测试治具支持的测试项目。 目的用於减少治具数量，提高 UPH. 
+QT1 Testing Station：Quick Test 1 -- 主要测试 iPhone 的 Compass, GYTT 及 Camera LED Torch Mode; 
+IMU Testing Station：
+Inertial Measurement Unit --惯性测量装置. 主要用於测试 iPhone 上 ： 
+Gyro Performance SW Download Station： 
+Software Download Station. – 此工站一般在 Burnin Station 前一工站, ： 用于将 BurnIn 软体下载到测试机台中； 
+Burn In Station：俗称“烧机”. 主要对产品的电池, Nand, Display 等进行可靠性测试； ： 
+Grape Cal and Test：对 Grape(触摸屏) 进行 Calibration 及 Test， 一般分为两个工站。一个 ： Cal，一个 Test; 
+Prox Cal and Test：对成品的 Proximity 功能进行 Calibration 及 Test, 一般分为两个工站， ： 一个 Cal, 一个 Test; 
+Prox Pressure Test：对整机的 Prox 功能进行测试, 主要用於验证机台在组装过程中的 CG ： 与 Band 之间的 Gap 对 Prox 功能的影响 
+MUAV：Multi Units Audio and Video Test – 用於测试 iPhone 产品上的音频与视频功能; ： 
+FACT： Acoustic Function Test – 主要用於对 iPhone 产品上的音频元件进行测试。 HP, Mic, 如 ： SPK, Rec,etc 
+Camera：
+Camera Function Test. 主要用於 Front & Back Camera 功能测试; ： 
+OTA：Over The Air – 用於对 iPhone 整机的 RF 功能进行测试 ： 
+MMI：Multi Modes Inspection, 主要是快速测试手机功能，如通讯，Compass, Gyro, etc ： 
+Shipping setting：类似于 Software Download 工站功能，主要用於产品出货前下载客户端软件。 
